@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aprendiendo a ser un Java-Full Stack</title>
+    <link rel="stylesheet" type="text/css" href="estilo1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="grid-item1">
+            <div>
+                <h1 class="titulo"> Aprendiendo a ser un desarrollador Java-Full Stack </h1>
+            </div>
+        </header>
+        <div class="grid-item2">
+            <nav class="center">
+                <a href='index.html' target="blank">
+                    Inicio
+                </a>
+                <a href='contenido.html' target="blank">
+                    Contenido
+                </a>
+                <a href='acercade.html' target="blank">
+                    Sobre mí
+                </a>
+                <a href='contacto.html' target="blank">
+                    Contacto
+                </a>
+            </nav>
+        </div>
+        <br>
+        <div class="grid-item3">
+        <section>
+            <div>
+                <h2 class="titulo2" id="teoriaboostrap">
+                    <b>JavaScript</b>
+                </h2>
+                <p>
+                    JavaScript es el lenguaje de programación del lado del cliente, esto significa que el navegador es quien lo interpreta.
+                    A diferencia de HTML y CSS, JavaScript no es estático, si no que es dinámico y le aporta funcionalidad a nuestra página.
+                    JavaScript es un lenguaje de scripting multiparadigma y débilmente tipado.
+                    Los programas escritos en este lenguaje se llaman scripts, se ejecutan en un navegador como texto sin formato y se van
+                    interpretando a medida que carga la página, el navegador es quien se encarga de compilar el código a medida que lo interpreta línea a línea.
+
+                </p>
+                <div class="imagen-container2">
+                    <img alt="logojs" class="logojs" src="img/logojs.png" />
+                </div>
+                <h3 id="instalacion"> Vincular JS con HTML5
+                </h3>
+                    <ul>Hay dos formas de incluir nuestro código JavaScript en nuestro documento HTML.
+                        <li>
+                            Insertar JavaScript en HTML utilizando la etiqueta:
+                            <div class="imagen-container2">
+                                <img alt="js1" class="js1" src="img/js1.png" />
+                            </div>
+                        </li>
+                        <li>
+                            Agregar código JavaScript en un archivo externo:
+                                <div class="imagen-container2">
+                                    <img alt="js2" class="js2" src="img/js2.png" />
+                                </div>
+                        </li>
+                    </ul>
+                
+                <h3 id="variables"> Variables
+                </h3>
+                    <p>Una Variable es un valor que puede cambiar con el tiempo (mutable), al contrario de una Constante que no cambia una vez
+                    definida (inmutable).
+                    Tanto las variables como las constantes en JavaScript son almacenamiento con nombre y sirven para guardar información
+                    (valores, datos).
+                    Las variables se usan como nombres simbólicos para valores en nuestra aplicación. Los nombres de las variables se rigen
+                    por ciertas reglas: tienen que comenzar por una letra, un guion bajo o el símbolo de $, los valores subsiguientes pueden
+                    ser números, JavaScript diferencia entre mayúsculas y minúsculas, por lo tanto las letras incluyen desde la "A a la "Z"
+                    y desde la "a" a la "z".
+                    </p>
+                    <ul>Hay 3 tipos de variables en JavaScript:
+                        <li>
+                            <b>var:</b> declara una variable, iniciándola opcionalmente a un valor. Podrá cambiar el mismo y su scope es global o de
+                            función.
+                        </li>
+                        <li>
+                            <b>let:</b> declara una variable en un bloque de ámbito, iniciándola opcionalmente a un valor. Podrá cambiar su valor.
+                        </li>
+                        <li>
+                            <b>const:</b> declara una constante de sólo lectura en un bloque de ámbito. No será posible cambiar su valor mediante la
+                            asignación.
+                        </li>
+                    </ul>
+                
+            <a href="contenido.html" id="volvercontenido"><b>Volver al contenido</b></a>
+            </div>
+        </section>
+        </div>
+        <div class="grid-item4">
+            <aside>
+                <h2 class="titulo2"> Encuentra:</h2>
+                <form>
+                    <input type="text">
+                    <br>
+                    <input type="submit" value="Buscar">
+                </form>
+                <br>
+                <h2 class="titulo2">Sitios de consulta:</h2>
+                <a href="https://www.w3schools.com" target="_blank">
+                    <i class="fas fa-laptop"></i> W3schools</a>
+                <br>
+                <a href="https://www.youtube.com/channel/UCliMUCPvAWIn_Mn7wHJMyzA" target="_blank">
+                    <i class="fab fa-youtube"></i> Clases Codo a Codo Comision 2008</a>
+                <br>
+                <a href="https://getbootstrap.com/" target="_blank">
+                    <i class="fab fa-bootstrap"></i> Boostrap</a>
+                <br>
+                <a href="https://google.com" target="_blank">
+                    <i class="fab fa-google"> </i> Google</a>
+            </aside>
+        </div>
+       
+        <div class="grid-item5">
+            <footer class="footer">
+                <p> Copyright 2020© all rights reserved.
+                </p>
+            </footer>
+        </div>
+    </div>
+        <script crossorigin="anonymous" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
+            </script>
+        <script crossorigin="anonymous" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js">
+            </script>
+        <script crossorigin="anonymous" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+            </script>
+        <script crossorigin="anonymous" src="https://kit.fontawesome.com/4465e0dafc.js">
+        </script>
+</body>
+</html>

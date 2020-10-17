@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aprendiendo a ser un Java-Full Stack</title>
+    <link rel="stylesheet" type="text/css" href="estilo1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="grid-item1">
+            <div>
+                <h1 class="titulo"> Aprendiendo a ser un desarrollador Java-Full Stack </h1>
+            </div>
+        </header>
+        <div class="grid-item2">
+            <nav class="center">
+                <a href='index.html' target="blank">
+                    Inicio
+                </a>
+                <a href='contenido.html' target="blank">
+                    Contenido
+                </a>
+                <a href='acercade.html' target="blank">
+                    Sobre mí
+                </a>
+                <a href='contacto.html' target="blank">
+                    Contacto
+                </a>
+            </nav>
+        </div>
+        <br>
+        <div class="grid-item3">
+        <section>
+            <div>
+                <h2 class="titulo2" id="teoriaboostrap">
+                    <b>Boostrap</b>
+                </h2>
+                <p>
+                    Bootstrap​ es un ​framework CSS​, es decir, es un archivo CSS que se añade en los proyectos 
+                    para tener una serie de estilos ya preparados para utilizar. Este tipo de librerías CSS 
+                    suelen incluir estilos para los elementos más comunes de una página web, como por ejemplo, 
+                    botones, tarjetas, navbars, etc. Además tiene una serie de estilos para crear columnas
+                    fácilmente.
+                    Su principal objetivo es permitir la construcción de sitios web responsive para dispositivos móviles.
+                </p>
+                <div class="imagen-container2">
+                    <img alt="logobt" class="logobt" src="img/logobt.png" />
+                </div>
+                <h3 id="instalacion"> Instalación
+                </h3>
+                    <ul>Hay dos maneras de comenzar a usar Bootstrap.
+                        <li>
+                            Descargarlo desde: http://getbootstrap.com/.
+                        </li>
+                        <li>
+                            Incluir CDN:
+                                <div class="imagen-container2">
+                                    <img alt="cdn" class="cdn" src="img/cdn.png" />
+                                </div>
+                        </li>
+                    </ul>
+                
+                <h3 id="conteiner"> Conteiner
+                </h3>
+                    <p>Los contenedores como su nombre indica, sirven para crear una “caja” o “contenedor” dentro de la que va el contenido
+                        de
+                        una página web.
+                        Cuando le aplicas a un elemento HTML la clase ​container​ lo que ocurre es que a ese elemento se le aplica un
+                        ​ancho​ y
+                        un ​padding​ determinado y además se coloca en el centro ​de la página web.
+                        <ul>Bootstrap viene con tres contenedores diferentes:
+                            <li>
+                                .container, que establece un ​max-width ​en todos los breakpoints responsive.
+                            </li>
+                            <li>
+                                .container-fluid, que establece un ​width: 100%​ en todos los breakpoints.
+                            </li>
+                            <li>
+                                .container- {breakpoint}, que tiene un ​width: 100% ​hasta el breakpoint especificado.
+                            </li>
+                        </ul>
+                    </p>
+                
+                <h3 id="gridsystem"> Grid System
+                </h3>
+                <p>El sistema de grillas de Bootstrap permite hasta 12 columnas en la página. Es posible agrupar las columnas para crear
+                columnas más amplias. Este sistema es responsive, por lo tanto, las columnas se reorganizarán automáticamente
+                dependiendo del tamaño de la pantalla.
+                </p>
+            </div>
+            <a href="contenido.html" id="volvercontenido"><b>Volver al contenido</b></a>
+        </section>
+        </div>
+        <div class="grid-item4">
+            <aside>
+                <h2 class="titulo2"> Encuentra:</h2>
+                <form>
+                    <input type="text">
+                    <br>
+                    <input type="submit" value="Buscar">
+                </form>
+                <br>
+                <h2 class="titulo2">Sitios de consulta:</h2>
+                <a href="https://www.w3schools.com" target="_blank">
+                    <i class="fas fa-laptop"></i> W3schools</a>
+                <br>
+                <a href="https://www.youtube.com/channel/UCliMUCPvAWIn_Mn7wHJMyzA" target="_blank">
+                    <i class="fab fa-youtube"></i> Clases Codo a Codo Comision 2008</a>
+                <br>
+                <a href="https://getbootstrap.com/" target="_blank">
+                    <i class="fab fa-bootstrap"></i> Boostrap</a>
+                <br>
+                <a href="https://google.com" target="_blank">
+                    <i class="fab fa-google"> </i> Google</a>
+            </aside>
+        </div>
+        <div class="grid-item5">
+            <footer class="footer">
+                <p> Copyright 2020© all rights reserved.
+                </p>
+            </footer>
+        </div>
+    </div>
+        <script crossorigin="anonymous" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
+            </script>
+        <script crossorigin="anonymous" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js">
+            </script>
+        <script crossorigin="anonymous" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+            </script>
+        <script crossorigin="anonymous" src="https://kit.fontawesome.com/4465e0dafc.js">
+        </script>
+</body>
+</html>

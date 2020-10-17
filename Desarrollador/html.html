@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Aprendiendo a ser un Java-Full Stack</title>
+        <link rel="stylesheet" type="text/css" href="estilo1.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+        <link rel="icon" href="img/logo.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+
+<body>
+    <div class="grid-container">
+        <header class="grid-item1">
+            <div>
+                <h1 class="titulo"> Aprendiendo a ser un desarrollador Java-Full Stack </h1>
+            </div>
+        </header>
+        <div class="grid-item2">
+            <nav class="center">
+                <a href='index.html' target="blank">
+                    Inicio
+                </a>
+                <a href='contenido.html' target="blank">
+                    Contenido
+                </a>
+                <a href='acercade.html' target="blank">
+                    Sobre mí
+                </a>
+                <a href='contacto.html' target="blank">
+                    Contacto
+                </a>
+            </nav>
+        </div>
+        <br>
+        <div class="grid-item3">
+            <section>
+                <div>
+                    <h2 class="titulo2" id="teoriahtml">
+                        <b>HTML</b>
+                    </h2>
+                    <p>
+                        Es un lenguaje utilizado para definir la estructura y semántica de una página web.
+                        HTML significa lenguaje de marcado de hipertexto (HyperText Markup Language), marcado se basa en una serie de marcas o etiquetas que le indican al navegador cómo y qué contenido cargar y hipertexto porque que se refiere a un sistema para escribir y mostrar texto que contiene información adicional.
+                    </p>
+                    <div class="imagen-container2">
+                        <img alt="logohtml5" class="logohtml5" src="img/logohtml5.png" />
+                    </div>
+                        <h3>
+                            ¿Cómo funciona?
+                        </h3>
+                        <ol> 
+                            <li>
+                                El navegador (cliente) le pide información al servidor.
+                            </li>
+                            <li>
+                                El servidor devuelve la información al cliente en un archivo HTML.
+                            </li>
+                            <li>
+                                El navegador en el cliente lee el archivo de arriba hacia abajo y de izquierda a derecha para interpretar la
+                                información.
+                            </li>
+                            <li>
+                                Tiene en cuenta las etiquetas que tiene el documento y las va renderizando en pantalla (lo que se ve en el navegador).
+                            </li>
+                        </ol>
+                        <h3 id="estructurahtml">
+                            Estructura básica HTML
+                        </h3>
+                        <div class="imagen-container2">
+                            <img alt="estructurahtml" class="estructurahtml" src="img/estructuraHTML1.jpg" />
+                        </div>
+                        <br>
+                        <h4 id="etiquetas">
+                            Etiquetas semánticas
+                        </h4>
+                        <p>
+                            <b>DOCTYPE html: </b> indica que la versión corresponde a HTML5.
+                            <br>
+                            <b>html lang=“es”:</b> es la etiqueta principal que engloba al resto de las etiquetas, el atributo lang define el tipo de lenguaje.
+                            <br>
+                            <b>head:</b> es la cabeza del documento que contiene los metadatos de la página web.
+                            <br>
+                            <b>body:</b> es el cuerpo del documento donde va a estar todo el contenido que vamos a mostrar.
+                            <br>
+                            <b>meta charset="utf-8“:</b> indica al navegador qué tipo de caracteres contiene la página, con el atributo charset vamos a indicar el conjunto de caracteres que vamos a usar y con el valor “utf-8” abarcamos a la mayoría de los sistemas escritura. 
+                            <br>
+                            <b>header:</b> encabezado de un documento o sección.
+                            <br>
+                            <b>nav:</b> define un conjunto de enlaces de navegación.
+                            <br>
+                            <b>main:</b> representa al contenido principal dentro del body.
+                            <br>
+                            <b>section:</b> define secciones de un documento.
+                            <br>
+                            <b>article:</b> especifica contenido independiente ej: un mensaje en un foro, comentarios, etc.
+                            <br>
+                            <b>aside:</b> se suele usar para colocar información adicional ej: publicidad.
+                            <br>
+                            <b>footer:</b> pie de página, suele contener información de contacto, mapa del sitio.
+                        </p>
+<br>
+                    <h4 id="etiquetas">
+                        Etiquetas
+                    </h4>
+                    <p>
+                        Son la forma que tiene html de representar elementos de la página web. 
+                        Hay dos tipos de etiquetas: etiqueta doble y etiqueta simple.
+                    </p>
+                    <br>
+                    <div class="imagen-container">
+                        <img alt="etiquetas" class="etiquetas" src="img/etiquetas.jpg" />
+                    </div>
+                    <br>
+                        <h4 id="etiquetasbasicas">
+                            Etiquetas básicas
+                        </h4>
+                        <p>
+                            <b>h1: </b> Define el título principal de la página web .
+                            <br>
+                            <b>h2,....h6:</b> Definen subtítulos de secciones de la página.
+                            <br>
+                            <b>p:</b> Define un párrafo o texto.
+                            <br>
+                            <b>br:</b> Define un salto de línea.
+                            <br>
+                            <b>hr:</b> Define una línea divisora.
+                            <br>
+                            <b>!-- código comentado --:</b> define una parte del código que no interpreta el navegador.
+                        </p>
+<br>
+                        <h4 id="etiquetasdetexto">
+                            Etiquetas de texto
+                        </h4>
+                        <p>
+                            <b>b:</b> <b>Texto en negrita o bold.</b>
+                            <br>
+                            <b>mark:</b> <mark>marcado.</mark>
+                            <br>
+                            <b>ins:</b> <ins>Texto insertado</ins> 
+                            <br>
+                            <b>small:</b> <small>Texto más pequeño.</small>
+                            <br>
+                            <b>i:</b> <i>Texto en itálica o cursiva.</i>
+                            <br>
+                            <b>del:</b> <del>Texto tachado.</del>
+                            <br>
+                            <b>sup:</b> <sup>Texto en superíndice.</sup>
+                            <br>
+                            <b>sub:</b> <sub>Texto en subíndice.</sub>
+                            <br>
+                            <b>strong:</b> texto importante.
+                            <br>
+                            <b>pre:</b> texto preformateado.
+                        </p>
+                        <h4 id="masetiquetas">
+                            Mas etiquetas
+                        </h4>
+                        <p>
+                        <b>Etiqueta a:</b> Crea un enlace o hipervínculo a páginas (de manera local o remota), archivos, mail, etc.
+                        <br>
+                        <b>Etiqueta link:</b> Especifica la relación entre el documento actual y un recurso externo.
+                        <br>
+                        <b>Etiqueta img:</b> Representa una imagen en el documento.
+                        </p>
+                <br>
+                <div class="imagen-container">
+                    <img alt="masetiquetas" class="masetiquetas" src="img/masetiquetas.jpg" />
+                </div>
+                <br>
+                <h4 id="rutasayr">
+                    Rutas absolutas y relativas
+                </h4>
+                <p>
+                    Una de las características de HTML es la posibilidad de enlazar unas páginas con otras, a través de rutas absolutas o relativas usando el atributo href.
+                    <br>
+                    <b>Rutas Absolutas:</b>
+                    Indica la ruta completa del directorio o archivo
+                    Contiene el directorio raíz ya sea en local (disco duro) o en remoto (dominio).
+                    <br>
+                    <b>Rutas Relativas:</b>
+                    Indica la ruta del directorio o archivo desde el lugar actual.
+                </p>
+
+                <h4 id="elementos">
+                    Elementos en línea y en bloque
+                </h4>
+                <p>
+                    Cada elemento HTML tiene un valor de visualización predeterminado, dependiendo del tipo de elemento que sea.
+                    Hay dos valores de visualización: bloque y en línea.
+                    <br>
+                    <b>Elementos a nivel de bloque:</b>
+                    Un elemento a nivel de bloque siempre comienza en una nueva línea y ocupa todo el ancho disponible (se extiende hacia la
+                    izquierda y hacia la derecha tanto como puede).
+                    <br>
+                    <b>Elementos en línea:</b>
+                    Un elemento en línea no comienza en una nueva línea y solo ocupa el ancho necesario.
+                </p>
+                <div class="imagen-container2">
+                    <img alt="elementos" class="elementos" src="img/elementos.jpg" />
+                </div>
+                <a href="contenido.html" id="volvercontenido"><b>Volver al contenido</b></a>
+            </section>
+        
+        </div>
+        <div class="grid-item4">
+            <aside>
+                <h2 class="titulo2"> Encuentra:</h2>
+                <form>
+                    <input type="text">
+                    <br>
+                    <input type="submit" value="Buscar">
+                </form>
+                <br>
+                <h2 class="titulo2">Sitios de consulta:</h2>
+                <a href="https://www.w3schools.com" target="_blank">
+                    <i class="fas fa-laptop"></i> W3schools</a>
+                <br>
+                <a href="https://www.youtube.com/channel/UCliMUCPvAWIn_Mn7wHJMyzA" target="_blank">
+                    <i class="fab fa-youtube"></i> Clases Codo a Codo Comision 2008</a>
+                <br>
+                <a href="https://getbootstrap.com/" target="_blank">
+                    <i class="fab fa-bootstrap"></i> Boostrap</a>
+                <br>
+                <a href="https://google.com" target="_blank">
+                    <i class="fab fa-google"> </i> Google</a>
+            </aside>
+        </div>     
+        <div class="grid-item5">
+            <footer class="footer">
+                <p> Copyright 2020© all rights reserved.
+                </p>
+            </footer>
+        </div>
+    </div>
+        <script crossorigin="anonymous" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
+            </script>
+        <script crossorigin="anonymous" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js">
+            </script>
+        <script crossorigin="anonymous" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+            </script>
+        <script crossorigin="anonymous" src="https://kit.fontawesome.com/4465e0dafc.js">
+        </script>
+</body>
+
+</html>

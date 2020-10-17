@@ -1,0 +1,295 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chilanka', cursive;
+}
+
+p {
+    font-family: 'Chilanka', cursive;
+}
+
+.grid-container {
+    width: 100vw;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.grid-item1 {
+    /* background-color: thistle; */
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1em;
+    text-align: center;
+    margin: 2vh;
+    color: rgb(184, 94, 245);
+    text-shadow:5px 5px 5px thistle;
+}
+
+.lead {
+    color: black;
+    font-family: 'Chilanka', cursive;
+
+}
+.grid-item2 {
+    /* background-color: thistle; */
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: center;
+    color: rgb(162, 56, 233);
+    text-shadow:2px 2px 5px rgb(186, 116, 226);
+    padding: 0.5rem 0rem;
+    margin: 0.5rem 0rem;
+}
+
+.grid-item2 a {
+    font-size: 1em;
+    text-decoration: none;  
+    justify-content: space-between;  
+}
+
+.titulo2 {
+    font-family: 'Chilanka', cursive;
+    font-size: 1.75em;
+    color:  rgb(201, 119, 201);
+}
+
+a {
+    font-family: 'Chilanka', cursive;
+    font-size: 0.8em;
+    color: black !important;
+    
+}
+
+.center a {
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-around;
+    margin: 0.25rem 1rem;  
+}
+.cuadro {
+    background-color: thistle;
+    display: flex;
+}
+
+.imagenindex {
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+
+label {
+    display: flex !important;
+    align-items: center;
+}
+
+.imagen-container {
+    width: 350px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    border-radius: 20%;
+}
+
+.grid-item3 {
+    /* background-color: thistle; */
+    display: flex;  
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.titulo3 {
+    display: flex;
+    font-size: 1.5rem;
+    width: 25vw;
+    height:15vh;
+    background-color:rgb(215 166 243);
+    font-family: 'Chilanka', cursive;
+    border-radius: 45%;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo4 {
+    display: flex;
+     font-size: 1.5rem;
+    width: 25vw;
+    height:15vh;
+    background-color:#fddbf9; 
+    font-family: 'Chilanka', cursive;   
+    border-radius: 45%;
+    justify-content: center;
+    align-items: center;
+}
+
+.borde {
+    border-left: #fddbf9 dotted;
+    border-right: #fddbf9 dotted;
+}
+.grid-item4 {
+    /* background-color: thistle; */
+    display: flex;  
+    justify-content: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-column-end: 4;
+    padding: 0 0.5rem;
+    margin: 0 0.5rem;
+    border: 0.2rem #fddbf9 double;
+}
+.grid-item5 {
+    /* background-color: thistle; */
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-column-end: 5;
+}
+
+.footer {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(162, 56, 233);
+    text-shadow:2px 2px 5px rgb(186, 116, 226);
+    display: flex;
+    justify-content: space-around;  
+}
+
+.logos {
+	margin: 5%;
+	display: block;
+	width: 150px;
+	height: 150px;
+	animation: logos 4s alternate-reverse forwards infinite; 
+}
+.logos:hover {
+	animation-play-state: paused;
+}
+
+@keyframes logos {
+	from {
+		transform: translate(-5vw,0) rotate(0deg);
+	}
+	to {
+		transform: translate(60vw,0) rotate(180deg);
+	}
+}
+.logohtml5 {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+
+.estructurahtml {
+    width: 250px;
+    height: 350px;
+    display: block;
+    margin: auto;
+}
+
+.masetiquetas {
+    width: 400px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+.etiquetas {
+    width: 400px;
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+.elementos {
+    width: 600px;
+    height: 120px;
+    display: block;
+    margin: auto;
+}
+.estructuracss {
+    width: 300px;
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+ol,ul {
+    font-family: 'Chilanka', cursive;
+}
+
+h3,h4,h5 {
+    font-size: 1.5rem;
+    font-family: 'Chilanka', cursive;  
+}
+
+
+#listaul {
+    margin: 0rem 0.25rem;
+    font-family: 'Chilanka', cursive;
+}
+#listaul1 {
+    padding: 0.75rem;
+    margin: 0rem 0.25rem;
+    font-family: 'Chilanka', cursive;
+}
+
+.logocss3,.logobt,.logojs {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+
+.btn.btn-lg {
+    background-color:  rgb(186, 116, 226);
+    color: white !important;
+    border: violet 0.1rem solid;
+}
+
+#submit {
+    background-color:  rgb(201, 119, 201);
+    font-family: 'Chilanka', cursive;
+}
+#volvercontenido {
+    color:  rgb(201, 119, 201) !important;
+    font-family: 'Chilanka', cursive;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+label {
+font-family: 'Chilanka', cursive;
+color: rgb(201, 119, 201);
+}
+
+
+.jumbotron {
+    background-color: rgb(252, 229, 252) !important;
+    margin-bottom: 0rem !important;
+    padding: 2rem 1rem !important;
+}
+
+.cdn {
+    width: 40rem;
+    height: 5rem;
+    display: block;
+    margin: auto;
+}
